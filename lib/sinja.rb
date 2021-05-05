@@ -380,8 +380,8 @@ module Sinja
   end
 
   def self.extended(base)
-    def base.route(*, **opts)
-      opts[:qparams] ||= []
+    def base.route(verb, path, options = {}, &block)
+      options[:qparams] ||= []
 
       super
     end
