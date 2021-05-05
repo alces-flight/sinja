@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.3.0'
 
-  spec.add_dependency 'activesupport', '>= 4.2.8', '< 6'
+  spec.add_dependency 'activesupport', '>= 4.2.8'
   spec.add_dependency 'json', '>= 1.8.3', '< 3'
   spec.add_dependency 'jsonapi-serializers', '>= 0.16.2', '< 2'
   spec.add_dependency 'sinatra', '~> 2.0'
